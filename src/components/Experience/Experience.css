@@ -1,0 +1,50 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tech-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.experience-years {
+  font-size: 12px;
+  color: var(--gray);
+  font-weight: bold;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: var(--green);
+
+
+  border-radius: 50%;
+  font-size: 1rem;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden; 
+}
+
+

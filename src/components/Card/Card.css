@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  width: 10rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 10rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.26);
+  border: 7px solid var(--green);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.card .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card span:nth-of-type(2) {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+.card > img {
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}

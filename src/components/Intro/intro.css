@@ -1,0 +1,90 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.i-name>:nth-child(1)
+{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.i-name>:nth-child(2)
+{
+    color: var(--green);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3)
+{
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.narrow-text {
+    max-width: 600px; /* You can adjust this value to your preference */
+    margin-left: -10px;
+    margin-right: auto;
+}
+
+
+.i-button{
+    width: 7rem;
+    height: 3rem;
+}
+
+.i-icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0rem;
+}
+
+.i-icons>* {
+  transform: scale(0.3);
+}
+
+.i-icons>*:hover {
+  cursor: pointer;
+}
+
+
+
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .intro{
+        flex-direction: column;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+}

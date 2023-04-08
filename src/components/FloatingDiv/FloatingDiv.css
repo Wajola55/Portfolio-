@@ -1,0 +1,42 @@
+.floatingdiv{
+    justify-content: space-around;
+    display: flex;
+    background: white;
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 4.5rem;
+}
+
+.floatingdiv>img{
+    transform: scale(0.4);
+}
+
+.floatingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floatingdiv {
+  animation: float 3s ease-in-out infinite;
+}
+
+.floating-div-left {
+    position: absolute;
+    left: -70px; 
+    top: 50%;
+    transform: translateY(-50%);
+}

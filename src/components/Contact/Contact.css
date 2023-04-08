@@ -1,0 +1,129 @@
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 8rem;
+  margin-top: 10rem;
+}
+
+
+.contact-form .message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--green);
+  margin-top: 5rem;
+}
+
+.w-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.technical span {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.technical span:first-child {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -15rem;
+}
+
+.technical .contact-me {
+  color: var(--green);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+
+}
+
+.c-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-top: -5rem;
+  border-radius: 8px;
+  padding: 2rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.dark-mode form {
+  background-color: inherit;
+  color: #fff;
+}
+
+.user {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 3px solid var(--green);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode .user {
+  border-color: #6a6a6a;
+  background-color: #fff;
+  color: #000;
+}
+
+.user:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(0, 128, 0, 0.3);
+}
+
+.dark-mode .user:focus {
+  border-color: #9a9a9a;
+  box-shadow: 0 0 0 3px rgba(154, 154, 154, 0.3);
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #1a6d3c;
+  transform: translateY(-2px);
+}
+
+.image-class {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin-top: 1rem; /* Add some margin if necessary */
+  display: block; /* Make the image a block element */
+  margin-left: auto;
+  margin-right: auto;
+}
+
