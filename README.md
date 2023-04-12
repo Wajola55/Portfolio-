@@ -4,6 +4,14 @@
 
 <b>Welcome to Wioletta's Web Development Wonderland! This is a personal portfolio project created using React.</b>
 
+## Running the App
+
+<b>To run the app locally, follow these steps:
+
+1. Install the required dependencies by running `yarn install`.
+2. Once the dependencies are installed, start the development server by running `yarn start`.
+3. The app should now be running on `http://localhost:3000` (or the port specified in your configuration). Open your browser and navigate to this address to see the app in action.</b>
+
 ![01 Intro](https://user-images.githubusercontent.com/118658753/231450101-926b9b49-03b3-45a3-b810-52699251dc9c.png)
 
 <b>The website showcases My experience in various technologies such as Django, React, Pandas, and Python. It features a beautiful, responsive design that adapts to both light and dark themes, with smooth scrolling and eye-catching animations.</b>
