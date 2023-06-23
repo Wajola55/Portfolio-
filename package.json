@@ -1,8 +1,10 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "homepage": "http://wkoczor.pl",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

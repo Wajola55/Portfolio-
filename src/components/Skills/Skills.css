@@ -72,3 +72,17 @@
     position: absolute;
 }
 
+/* Styles for screens up to 480px (e.g., smartphones) */
+@media (max-width: 480px) {
+  /* Add your CSS styles here for mobile devices */
+}
+
+/* Styles for screens between 481px and 768px (e.g., small tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Add your CSS styles here for small tablets */
+}
+
+/* Styles for screens above 768px (e.g., larger screens) */
+@media (min-width: 769px) {
+  /* Add your CSS styles here for larger screens */
+}

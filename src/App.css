@@ -34,10 +34,7 @@
   border: 2px solid var(--green);
 }
 
-  
-/* Media query for mobile devices */
-@media screen and (max-width: 768px) {
-  .App {
-    padding: 0.5rem 1rem;
-  }
-}
+
+
+
+

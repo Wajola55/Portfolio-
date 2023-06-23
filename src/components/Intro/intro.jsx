@@ -53,7 +53,7 @@ const Intro = () => {
             </div>
             <div className="i-right">
                 <FloatingDiv image={Binary} txt1="Code" txt2="Adventurer" className="floating-div-left" />
-                <img src={Wiola} alt="" />
+                <img src={Wiola} alt="" style={{ marginLeft: '10px' }}/>
                 <div style={{top: '-4%', left: '68%'}}>
                     <FloatingDiv image={codes} txt1='Function' txt2='Fanatic'/>
                 </div>

@@ -127,3 +127,18 @@ textarea {
   margin-right: auto;
 }
 
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 0.5rem 1rem; /* Adjust the padding to your liking */
+  }
+
+  .button {
+    font-size: 14px; /* Adjust the font size to be more mobile-friendly */
+    padding: 8px 20px; /* Adjust the padding to your liking */
+  }
+}
+
+
+

@@ -7,7 +7,8 @@ import dashboard from '../../img/dashboard.png';
 import booking from '../../img/booking.png';
 import {themeContext} from '../../Context';
 import { useContext } from 'react';
-import Resume from './Resume.Wioletta_Koczor.pdf';
+import ResumeEnglish from './CV_English.Wioletta_Koczor.pdf';
+import ResumePolish from './CV_Polish.Wioletta_Koczor.pdf';
 
 
 
@@ -31,8 +32,11 @@ const Skills = () => {
         So, if you're looking for a passionate and driven Junior Developer to work with, then look no further! Let's work together to create something truly amazing.
         </span>
         </div> 
-        <a href={Resume} download>
-        <button className="button s-button">Download CV</button>
+        <a href={ResumeEnglish} download>
+          <button className="button s-button">Download CV (English)</button>
+        </a>
+        <a href={ResumePolish} download>
+          <button className="button s-button">Download CV (Polish)</button>
         </a>
       </div>
 
