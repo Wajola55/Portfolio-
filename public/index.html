@@ -31,5 +31,15 @@
     <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
     <script src="index.js"></script>
+
+    <script>
+      // Log the user-agent
+      console.log(navigator.userAgent);
+      // Check if the user is on a mobile device
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // If on mobile device, redirect to your mobile subdomain
+        window.location.href = "http://mobile.wkoczor.pl";
+      }
+      </script>
   </body>
 </html>

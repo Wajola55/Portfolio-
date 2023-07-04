@@ -44,4 +44,36 @@
     flex: 2;
 }
 
+/* Existing CSS code */
+
+.flag-button {
+  margin-right: 0.5rem;
+  border: none;  /* Remove border */
+  padding: 0;    /* Remove padding */
+  background: transparent; /* Make the background transparent */
+  cursor: pointer; /* Cursor pointer */
+}
+
+.flag-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+
+.flag-img {
+  width: 32px; /* Set the width */
+  height: auto; /* Automatically adjust the height */
+}
+
+
+
+.n-list > ul {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; 
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+
+
 
