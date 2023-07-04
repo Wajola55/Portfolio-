@@ -119,10 +119,10 @@ textarea {
 }
 
 .image-class {
-  width: 100px; /* Adjust the width as needed */
+  width: 100px; 
   height: auto;
-  margin-top: 1rem; /* Add some margin if necessary */
-  display: block; /* Make the image a block element */
+  margin-top: 1rem; 
+  display: block; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,12 +131,12 @@ textarea {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   .App {
-    padding: 0.5rem 1rem; /* Adjust the padding to your liking */
+    padding: 0.5rem 1rem;
   }
 
   .button {
-    font-size: 14px; /* Adjust the font size to be more mobile-friendly */
-    padding: 8px 20px; /* Adjust the padding to your liking */
+    font-size: 14px; 
+    padding: 8px 20px; 
   }
 }
 
